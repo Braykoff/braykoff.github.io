@@ -69,5 +69,10 @@ body {
   top: 45px;
   bottom: 5px;
   display: none;
-  overflow-y: scroll;
+  overflow: scroll;
+}
+
+#canvasContainer canvas {
+  display: block;
+  margin: 10px auto;
 }

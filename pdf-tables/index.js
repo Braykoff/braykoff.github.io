@@ -18,6 +18,7 @@ fileInput.addEventListener("change", async () => {
   if (fileInput.files.length != 0) {
     pdfFile = fileInput.files[0]
     fileTitle.innerText = pdfFile.name;
+    document.title = "PDFTables - " + pdfFile.name;
     fileInput.setAttribute("disabled", "Y");
     fileInputContainer.classList.remove("action");
 

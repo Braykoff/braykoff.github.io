@@ -75,7 +75,7 @@ canvasContainer.addEventListener("scroll", () => {
 
     if (dist < closestDist) {
       closestDist = dist;
-      closestCanvas;
+      closestCanvas = canvas;
     }
   }
 

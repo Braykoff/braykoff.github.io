@@ -41,7 +41,7 @@ fileInput.addEventListener("change", async () => {
       canvas.style.margin = "10px auto";
 
       await page.render({ canvasContext: ctx, viewport }).promise;
-      container.appendChild(canvas);
+      canvasContainer.appendChild(canvas);
     }
   }
 });
